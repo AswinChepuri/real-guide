@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(90deg, #0062E6, #33AEFF);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card i {
+    color: #0062E6;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text ul {
+    padding-left: 20px;
+}
+
+.card-text li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    margin-top: auto;
+}
